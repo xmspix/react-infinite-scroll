@@ -1,0 +1,27 @@
+{
+  "name": "react-infinite-scroll",
+  "version": "1.0.0",
+  "description": "React Infinite Scroll",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": [
+    "React Infinite Scroll",
+    "React",
+    "Infinite",
+    "Scroll"
+  ],
+  "author": "Mark Stoler <mark.stoler.86@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
