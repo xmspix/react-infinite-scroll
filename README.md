@@ -2,7 +2,7 @@
 
 ```
 import React, { useState, useEffect } from "react";
-import InfiniteScroll from "infinite-scroll";
+import InfiniteScroll from "react-infinite-scroll";
 
 const App = () => {
   const [state, setState] = useState({
